@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: aliceblue;
+  }
+  /* ---------- INICIO LOGO ------------ */
+  .logo{
+    width: 100px;
+    margin-left: 8.8em;
+  }
+  /* ---------- FIN LOGO ------------ */
+
+  /* ---------- INICIO MENÚ ------------ */
+  header{
+    width: 100%;
+  }
+  header nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    left: 0px;
+    background: #0b234c;
+  }
+  .menu_bar{
+    display: none;
+  }
+  header nav ul{
+    overflow: hidden;
+    list-style: none;
+  }
+  header nav ul li{
+    float:left;
+  }
+  header nav ul li a{
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+  }
+  header nav ul li i{
+    margin-right: 3px;
+  }
+  header nav ul li a:hover{
+    background: #FF8000;
+  }
+
+  @media screen and (max-width: 800px){
+    header nav{
+      width: 40%;
+      height: 100%;
+      left: -100%;
+      margin: 0;
+      position: fixed;
+    }
+    header nav ul li{
+      display: block;
+      float: none;
+      border-bottom:1px rgba(255, 255, 255, 0.3);
+    }
+    .menu_bar{
+      display: block;
+      width: 100%;
+      
+    }
+    .menu_bar .bt-menu{
+      display: block;
+      padding: 20px;
+      background: #000117;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 25px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .menu_bar i{
+      float: right;
+      font-size: 25px;
+    }
+  }
+  div ul li{
+      font-family: 'Patrick Hand', cursive;
+      font-size: 24px;
+  }
+ /* ---------- FIN MENÚ ------------ */
+
+ /* INICIO IMAGEN 1 */
+  .con1{
+    margin-right: 8.8em;
+    text-align: right;
+  }
+ /* FIN IMAGEN 1 */
